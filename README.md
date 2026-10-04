@@ -2,9 +2,9 @@
 
 Screens a batch of placed backlinks in three cheap-to-expensive stages and tells you, for every link, **why it passed or failed**.
 
-> **Portfolio project written from scratch on synthetic data.** It contains no data, lists, names, thresholds or code from any employer or client. All domains are fictional (`.example`, documentation IP range), authors are placeholders, and every quality threshold is a configurable parameter you set yourself.
+> **Portfolio project written from scratch on synthetic data.** It contains no specific data(lists, names, thresholds). All domains are fictional (`.example`, documentation IP range), authors are placeholders, and every quality threshold is a configurable parameter you set yourself.
 
-## Why
+## Why I built it
 
 Links that get placed for a site are often wrong in boring ways: the domain is weak, the audience is in the wrong country, the page is `noindex`, the link was removed, the page links to the target twice. Checking this by hand takes hours and is inconsistent. This tool applies the same rules to every link, in the same order, and records the reason.
 
