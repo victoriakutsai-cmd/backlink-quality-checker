@@ -1,0 +1,11 @@
+# local build outputs
+seo_platform.db
+dashboard_data.json
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# credentials - never commit
+service_account.json
+*.key.json
+.env

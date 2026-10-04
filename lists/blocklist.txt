@@ -1,0 +1,2 @@
+# Domains you never want links from (synthetic examples)
+blocked-demo.example

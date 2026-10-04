@@ -1,0 +1,11 @@
+{
+  "target_domain": "client.example",
+  "min_dr": 15,
+  "min_monthly_traffic": 500,
+  "allowed_geos": ["US", "GB", "CA", "IE"],
+  "geo_top_n": 3,
+  "allowed_cctlds": ["us", "uk", "ca", "au", "nz", "ie"],
+  "free_hosting_suffixes": ["wordpress.com", "blogspot.com", "wixsite.com", "weebly.com", "tumblr.com"],
+  "max_domain_share_pct": 10.0,
+  "crawl": {"workers": 8, "timeout": 10, "delay": 0.5, "respect_robots": true}
+}

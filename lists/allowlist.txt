@@ -1,0 +1,2 @@
+# Trusted domains: skip metric and heuristic rules (explicit block/stop lists still apply)
+site-03.example
