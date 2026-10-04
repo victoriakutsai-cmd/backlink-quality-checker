@@ -2,7 +2,7 @@
 
 Screens a batch of placed backlinks in three cheap-to-expensive stages and tells you, for every link, **why it passed or failed**.
 
-> **Portfolio project written from scratch on synthetic data.** It contains no specific data(lists, names, thresholds). All domains are fictional (`.example`, documentation IP range), authors are placeholders, and every quality threshold is a configurable parameter you set yourself.
+> **Portfolio project written from scratch on synthetic data.** All domains, authors and numbers are fictional (.example domains, placeholder authors), and every quality threshold is a configurable parameter.
 
 ## Why I built it
 
