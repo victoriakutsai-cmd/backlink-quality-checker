@@ -1,5 +1,7 @@
 # Backlink quality checker
 
+![tests](https://github.com/victoriakutsai-cmd/backlink-quality-checker/actions/workflows/tests.yml/badge.svg)
+
 Screens a batch of placed backlinks in three cheap-to-expensive stages and tells you, for every link, **why it passed or failed**.
 
 > **Portfolio project written from scratch on synthetic data.** It contains no data, lists, names, thresholds or code from any employer or client. All domains are fictional (`.example`, documentation IP range), authors are placeholders, and every quality threshold is a configurable parameter you set yourself.
@@ -52,6 +54,8 @@ Re-run after fixes and compare with the previous run: `--previous output_old/rep
 
 ### Example (synthetic data, screening only)
 
+Full sample output: [`docs/sample_report.csv`](docs/sample_report.csv) and [`docs/sample_summary_by_author.csv`](docs/sample_summary_by_author.csv).
+
 | author | links | unique_domains | pct_blocklisted | pct_stoplisted | pct_other_rejected | pct_good |
 |---|---|---|---|---|---|---|
 | author_a | 31 | 22 | 0.0 | 0.0 | 6.5 | 90.3 |
@@ -63,6 +67,7 @@ Re-run after fixes and compare with the previous run: `--previous output_old/rep
 ```bash
 python -m unittest -v
 ```
+Run locally on Python 3.9 (Windows) and 3.12; CI runs the same tests on 3.9 and 3.12 for every commit.
 12 tests: domain rules, priority and severity, a local test server with 12 page scenarios (ok, redirect, link missing, plain-text URL, noindex via meta and header, duplicate links, wrong URL, non-English title, 404, 403, login wall), "rejected domains are not crawled", iteration diff, author summary.
 
 ## Limitations (honest list)
