@@ -1,3 +1,4 @@
+![tests](https://github.com/victoriakutsai-cmd/backlink-quality-checker/actions/workflows/tests.yml/badge.svg)
 # Backlink quality checker
 
 Screens a batch of placed backlinks in three cheap-to-expensive stages and tells you, for every link, **why it passed or failed**.
